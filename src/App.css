@@ -9,6 +9,30 @@ html {
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  html, body, #root {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .flex, .grid {
+    flex-wrap: wrap;
+  }
+
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* end */
+
 .logo {
   height: 6em;
   padding: 1.5em;
