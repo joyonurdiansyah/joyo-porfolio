@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import IDcardscene from "../components/IDcardscene.jsx";
+import IDcardscene from "./Threejs.jsx";
 
 const Heyoo = () => {
     return (
